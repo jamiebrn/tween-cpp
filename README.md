@@ -16,7 +16,7 @@ float secondValue = 7.0f;
 tweener.startTween(&value, 5.0f, 10.0f, 3, TweenTransition::Elastic, TweenEasing::EaseInOut);
 
 // Start tween and get ID to determine when complete
-TweenID tweenID = tweener.startTween(&secondValue, 7.0f, 11.0f, TweenTransition::Sine, TweenEasing::EaseOut);
+TweenID tweenID = tweener.startTween(&secondValue, 7.0f, 11.0f, 4, TweenTransition::Sine, TweenEasing::EaseOut);
 
 ...
   // Update loop
