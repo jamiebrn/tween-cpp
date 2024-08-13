@@ -2,7 +2,9 @@
 
 Simple header-only tweening library written in C++
 
-Tween objects can be made for any type, as long as the type has addition, subtraction, and multiplication operators defined.
+Tween objects can be made for any type meeting the following:
+ - Addition and subtraction operators defined with itself
+ - Multiplication operator defined for floats
 
 Example code for tweening floats:
 ```cpp
